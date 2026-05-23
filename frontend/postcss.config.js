@@ -1,0 +1,1 @@
+ÿþmodule.exports={plugins:{tailwindcss:{},autoprefixer:{}}
