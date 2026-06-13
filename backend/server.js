@@ -21,7 +21,8 @@ app.get('/', (req, res) => {
     status: 'success'
   });
 });
-
+// Auth routes
+app.use('/api/auth', require('./routes/authRoutes'));
 // Start server
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
